@@ -1,0 +1,66 @@
+main {
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 1px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 1px;
+    text-align: center;
+}
+
+content {
+    display: -webkit-flex;
+    display: flex;
+}
+
+article {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #123;
+    padding: 10px;
+}
+
+information {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #1f1f1f;
+    padding: 10px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+table{
+    margin: 0px auto;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color: blue;
+}
